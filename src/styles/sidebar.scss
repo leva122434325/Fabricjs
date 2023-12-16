@@ -1,0 +1,77 @@
+@import './variable';
+
+.sidebar {
+  background-color: $white-color;
+  border-radius: 10px;
+  min-height: 500px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .sidebar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+
+    .sidebar-container-icon {
+      margin-right: 5px;
+    }
+
+    .sidebar-container-btn {
+      border: none;
+      outline: none;
+      height: 30px;
+      width: 100px;
+      cursor: pointer;
+      margin-bottom: 5px;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+    }
+
+    .sidebar-container-btn:hover {
+      color: $blue-color;
+    }
+  }
+  .sidebar-rendoUndo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    .sidebar-modal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .sidebar-modal-btn {
+        max-width: 50px;
+        padding: 5px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        box-shadow: 1px 1px 1px #000;
+        cursor: pointer;
+      }
+    }
+
+    .sidebar-modal-btn:hover {
+      box-shadow: 2px 2px 2px $blue-color;
+    }
+
+    .sidebar-rendoUndo-btn {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 10px;
+    }
+    .sidebar-rendoUndo-btn:hover {
+      color: $blue-color;
+    }
+  }
+}

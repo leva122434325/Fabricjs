@@ -1,0 +1,8 @@
+@import './variable';
+
+#fabric-canvas {
+  border-radius: 10px;
+  background-color: $white-color;
+  width: 800px;
+  height: 500px;
+}
