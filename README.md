@@ -8,6 +8,6 @@
 
 ## Dependency
 
-"fabric": "^3.6.3",
+"fabric": "^5.3.0",
 "node-sass": "^9.0.0",
 "react-icons": "^4.12.0",
